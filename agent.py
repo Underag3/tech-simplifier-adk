@@ -9,7 +9,7 @@ from langchain_community.utilities import WikipediaAPIWrapper
 
 # --- 1. Initial Setup ---
 load_dotenv()
-model_name = "gemini-2.5-flash"
+model_name = "gemini-2.5-flash" # Change it to gemini-3-flash-preview for newer model
 
 # --- 2. Tool Definitions ---
 def add_prompt_to_state(tool_context: ToolContext, prompt: str) -> dict[str, str]:
