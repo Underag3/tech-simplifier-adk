@@ -6,7 +6,7 @@ This project acts as a "Senior Technical Consultant". It automatically routes ta
 
 ## Technologies Used
 * Google Agent Development Kit (ADK) v1.14.0
-* Gemini 2.5 Flash
+* Gemini 2.5 Flash (You can change it to gemini 3.1 flash preview for newer model)
 * Langchain Wikipedia Tool
 * Google Cloud Run (Serverless Deployment)
 
